@@ -1,2 +1,5 @@
-# course-material
-This repo contains the course materials for programming workshop 2 course offered at the University of Ontario Institute of Technology.  This course is initially offered by Faisal Qureshi.
+# Programming Workshop 2 (CSCI 1061U)
+
+This website contains course materials for the Programming Workshop 2 course offered within the Faculty of Science at the Unviersity of Ontario Institute of Technology.
+
+The course is being offered during the Winter 2017 term.
