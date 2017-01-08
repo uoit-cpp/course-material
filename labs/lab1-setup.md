@@ -1,6 +1,6 @@
 # CSCI 1061U - Programming Workshop 2
-## Lab 1 - Setting up C++ Development System
 
+## Lab 1 - Setting up C++ Development System
 
 ### Objectives ###
 
@@ -144,5 +144,5 @@ Complete the following tasks:
 	cout << "SD of arr is " << sd << endl;
 ~~~
 
-###Submission
+### Submission
 Please submit `average.cpp`, `average.h` and `lab1.cpp` files via Blackboard. 
