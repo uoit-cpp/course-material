@@ -6,7 +6,9 @@ This is a second intensive course on computer programming (C++) that continues f
 
 # Important
 
+- Please use your uoit.net email address to sign up for course Slack channel [https://uoit-w17-csci1061.slack.com/signup](https://uoit-w17-csci1061.slack.com/signup)
 - Course syllabus is available [here](syllabus)
 - All work needs to be submitted via [Blackboard](http://uoit.blackboard.com)
 
 # Lectures
+
