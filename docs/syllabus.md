@@ -1,4 +1,5 @@
 # Programming Workshop 2 (CSCI 1061U)
+
 ## Course Syllabus Winter 2017
 
 __Instructor:__ Faisal Z. Qureshi, Ph.D.  
