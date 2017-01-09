@@ -3,7 +3,7 @@
 __Faisal Qureshi__  
 faisal.qureshi@uoit.ca 
 
-C++ provides iostream library to read from and write to files.  iostream library defines three data types to constructs i/o streams attached to files.  
+C++ provides __iostream__ library to read from and write to files.  iostream library defines three data types to constructs i/o streams attached to files.  
 
 Data Type | Description
 ----------|------------
@@ -11,7 +11,7 @@ ofstream | This data type represents the output file stream and is used to creat
 ifstream | This data type represents the input file stream and is used to read information from files.
 fstream | This data type represents the file stream generally, and has the capabilities of both ofstream and ifstream which means it can create files, write information to files, and read information from files.
 
-Once an file i/o stream is ready, it behaves similarly to standard streams that you are already familiar with, such as `cin`, `cout` and `cerr`, with a few caveats that we discuss below.  
+Once an file (IO) stream is ready, it behaves similarly to standard streams that you are already familiar with, such as `cin`, `cout` and `cerr`, with a few caveats that we discuss below.  
 
 __Note__: To perform file processing in C++, header files `<iostream>` and `<fstream>` must be included in your C++ source file.
 
@@ -61,34 +61,20 @@ This file contains 3 numbers.  Each number is on its own line.
 Read these numbers as strings
 
 ~~~cpp
-#include <iostream>
-#include <fstream>
-#include <string>
-using namespace std;
-
-int main()
-{
-	ifstream f("numbers.txt");
-	if (f.is_open()) {
-		cout << "Successfully opened \"numbers.txt\" for reading.\n"; 
-		
-		string line;
-		while ( getline(f, line) ) // getline() returns a true if 
-        		                   // it successfully reads a line
-                		           // from the file; otherwise, it 
-                       		       // returns false. 
-		{
-			cout << line << '\n';		
-		}
-		
-		f.close(); // Don't forget to close the file stream
+...
+if (f.is_open()) {
+	string line;
+	while ( getline(f, line) ) // getline() returns a true if 
+    		                   // it successfully reads a line
+            		           // from the file; otherwise, it 
+                   		       // returns false. 
+	{
+		cout << line << '\n';		
 	}
-	else {
-		cerr << "Error opening \"numbers.txt\" for reading.\n";
-	}
-
-	return 0;
+	
+	f.close(); // Don't forget to close the file stream
 }
+...
 ~~~
 
 The above program will output
@@ -98,6 +84,8 @@ The above program will output
 23
 354
 ~~~
+
+[Source code](fileio-src/fileio-01.cpp)
 
 ###### Experiment
 
@@ -114,31 +102,19 @@ What will be the output of the above program (choice 1)?
 Read these numbers as integers
 
 ~~~cpp
-#include <iostream>
-#include <fstream>
-using namespace std;
-
-int main()
-{
-	ifstream f("numbers.txt");
-	if (f.is_open()) {
-		cout << "Successfully opened \"numbers.txt\" for reading.\n"; 
-		
-		while ( !f.eof() ) // eof() method checks wether we
-		                   // have reached the end-of-file.
-		{
-			f >> num;
-			cout << num << '\n';
-		}
-		
-		f.close(); // Don't forget to close the file stream
+...
+if (f.is_open()) {
+	while ( !f.eof() ) // eof() method checks wether we
+	                   // have reached the end-of-file.
+	{
+		int num;
+		f >> num;
+		cout << num << '\n';
 	}
-	else {
-		cerr << "Error opening \"numbers.txt\" for reading.\n";
-	}
-
-	return 0;
+	
+	f.close(); // Don't forget to close the file stream
 }
+...
 ~~~
 
 The above program will output
@@ -148,6 +124,8 @@ The above program will output
 23
 354
 ~~~
+
+[Source code](fileio-src/fileio-02.cpp)
 
 ###### Experiment
 
@@ -164,7 +142,7 @@ _Is it the same output?  If not, why not?_
 #### Things to try
 
 - What happens if the file that you want to read doesn't exist?
-- What if file disappears in the middle of a read?  Say a file consists of a billion entries, and a hacker deletes it in the middle of a read?
+- What if file disappears in the middle of a read?  Say a file sits on an external USB drive and someone yanks it out in a middle of a read?
 
 
 ## Writing to a file
@@ -196,32 +174,20 @@ int main()
 
 ### Writing to a file: numbers, one per line
 
-Lets save a list of numbers to a file.
+Lets save a list of numbers to a file using insertion operator `<<` .
 
 ~~~cpp
-#include <iostream>
-#include <fstream>
-using namespace std;
-
-int main()
-{
-	ofstream f("numbers.txt");
-	if (f.is_open()) {
-		cout << "Successfully opened \"numbers.txt\" for writing.\n"; 
-		
-		f << 13432 << '\n';
-		f << 132 << '\n';
-		f << 1432 << '\n';
-		
-		f.close(); // Don't forget to close the file stream
-	}
-	else {
-		cerr << "Error opening \"numbers.txt\" for writing.\n";
-	}
-
-	return 0;
+...
+if (f.is_open()) {
+	f << 3.14159 << '\n';
+	f << 8321 << '\n';
+	
+	f.close(); // Don't forget to close the file stream
 }
+...
 ~~~
+
+[Source code](fileio-src/fileio-03.cpp)
 
 When you compile and run this program one of the following two will happen:
 
@@ -231,9 +197,8 @@ When you compile and run this program one of the following two will happen:
 The contents of this file will be
 
 ~~~txt
-13432
-132
-1432
+3.14159
+8321
 ~~~
 
 #### Problem
@@ -252,10 +217,6 @@ ofstream f("numbers.txt", ios::app);
 
 `ios::app` flag sets up ofstream for appending.  
 
-##### Exercise
-
-Now make this change, delete numbers.txt file, and run the above program three times.  What are the contents of numbers.txt file?  Try once using `ios::app` and once without it.
-
 ### Buffered Output
 
 Output in C++ may be buffered. This means that anything that is output to a file stream may not be written to disk immediately.  Instead several writes may be group together to improve performance (disk access are painfully slow).  Typically buffered writes is not an issue; however, it can lead to problems in unique circumstances.  For example, if a program crashes.  The contents may not yet be written to the file and all changes may be lost.  It is possible to force a write by _flushing_.  Use `flush()` to force a write to the disk. 
@@ -264,15 +225,15 @@ Note that closing a file also _flushes_ a buffer, forcing a write to the disk of
 
 Interestingly, `std::endl` which is often used in place of `\n` also forces a flush.  Relying upon `std::endl` instead of `\n` to indicate a newline, for example, can adversaly effect the performance.  Interesting, eh!
 
-~~~bash
-	f << "CSCI 1061U\n" << "Programming workshop 2\n";
-	f.flush();  // forces a save to the file
+~~~cpp
+f << "CSCI 1061U\n" << "Programming workshop 2\n";
+f.flush();  // forces a save to the file
 ~~~
 
 Alternately, 
 
-~~~bash
-	f << "CSCI 1061U\n" << "Programming workshop 2" << endl;
+~~~cpp
+f << "CSCI 1061U\n" << "Programming workshop 2" << endl;
 ~~~
 
 In practice, it is preferrable to use `flush()`.  This gives a clear signal that you intend to force a write-to-the-file.
@@ -327,4 +288,11 @@ It is possible to set the location in the file where you want to perform the nex
 3. Move read location back n bytes from the current location: `f.seekg( n, ios::end );`
 4. Find the current read location `f.tellg();`
 5. `seekp()` and `tellp()` can be used to move the write locations.
+
+## Exercises
+
+1. Write a program for storing and loading 3D vectors to a file.
+2. Write a program for storing and loading lastname, firstname to a file.
+
+
 
