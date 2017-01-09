@@ -31,8 +31,8 @@ This course deals with C++ programming.  There are many online C++ help resource
 # Lectures
 ### Week 1 (Jan 9)
 
-- Variables, control flow and functions
-- File I/O
+- [Introduction](lectures/c++-intro)
+- [File I/O](lectures/c++-fileio)
 
 ### Week 2 (Jan 16) 
 
