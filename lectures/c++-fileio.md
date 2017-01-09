@@ -1,5 +1,8 @@
 # Lecture 2 Notes: File IO
 
+__Faisal Qureshi__  
+faisal.qureshi@uoit.ca 
+
 C++ provides iostream library to read from and write to files.  iostream library defines three data types to constructs i/o streams attached to files.  
 
 Data Type | Description
@@ -253,11 +256,75 @@ ofstream f("numbers.txt", ios::app);
 
 Now make this change, delete numbers.txt file, and run the above program three times.  What are the contents of numbers.txt file?  Try once using `ios::app` and once without it.
 
-## Case Studies
+### Buffered Output
 
-### 3D vectors: load and store
+Output in C++ may be buffered. This means that anything that is output to a file stream may not be written to disk immediately.  Instead several writes may be group together to improve performance (disk access are painfully slow).  Typically buffered writes is not an issue; however, it can lead to problems in unique circumstances.  For example, if a program crashes.  The contents may not yet be written to the file and all changes may be lost.  It is possible to force a write by _flushing_.  Use `flush()` to force a write to the disk. 
 
-Develop a program that can store (and load) 3D vectors to (from) a file.  Each 3D vector consists of 3 floating point numbers.  We can store these numbers as doubles.
+Note that closing a file also _flushes_ a buffer, forcing a write to the disk of course.
 
+Interestingly, `std::endl` which is often used in place of `\n` also forces a flush.  Relying upon `std::endl` instead of `\n` to indicate a newline, for example, can adversaly effect the performance.  Interesting, eh!
 
+~~~bash
+	f << "CSCI 1061U\n" << "Programming workshop 2\n";
+	f.flush();  // forces a save to the file
+~~~
+
+Alternately, 
+
+~~~bash
+	f << "CSCI 1061U\n" << "Programming workshop 2" << endl;
+~~~
+
+In practice, it is preferrable to use `flush()`.  This gives a clear signal that you intend to force a write-to-the-file.
+
+### File modes
+
+File stream constructors take an optional second parameter that allows you to specify information about how the file should be opened. This parameter is called mode, and the valid flags that it accepts live in the Ios class.
+
+ios file mode | Meaning
+--------------|--------
+app	| Opens the file in append mode
+ate	| Seeks to the end of the file before reading/writing
+binary | Opens the file in binary mode (instead of text mode)
+in | Opens the file in read mode (default for ifstream)
+nocreate | Opens the file only if it already exists
+noreplace | Opens the file only if it does not already exist
+out | Opens the file in write mode (default for ofstream)
+trunc | Erases the file if it already exists
+
+It is possible to specify multiple flags by bitwise ORing them together (using the `|` operator). 
+
+## Binary files
+
+`ios:binary` mode flag can be used to open a file for read/write in binary mode.    Insertion `<<` and extraction `>>` operators are not meant to be used for binary mode files.  To understand the difference between the two modes, consider the following example.
+
+Say you want to write 3.14159 to a file.  In text mode, this can be accomplished as `f << 3.14159`.  The `<<` operator will write '3', '.', '1','4','5','9' to the file, which will take 7 bytes.  In binary mode, however, it will only take 32 bits (or 4 bytes), since it will be written as a double.
+
+You'll use `read` and `write` methods to read/write from binary files.
+
+~~~cpp
+double pi = 3.14159;
+ofstream f("pi.dat", ios::binary);
+f.write(&pi, sizeof(double));
+~~~
+
+and
+
+~~~cpp
+double d;
+ifstream f("pi.dat", ios::binary);
+f.read(&d, sizeof(double));
+~~~
+
+If there is a read error `gcount()` can be used to see how many bytes are actually read.
+
+## Random Access
+
+It is possible to set the location in the file where you want to perform the next read or write.
+
+1. Move read location forward n bytes from the beginning: `f.seekg( n );`
+2. Move read location forward n bytes from the current location: `f.seekg( n, ios::cur );`
+3. Move read location back n bytes from the current location: `f.seekg( n, ios::end );`
+4. Find the current read location `f.tellg();`
+5. `seekp()` and `tellp()` can be used to move the write locations.
 
