@@ -19,6 +19,8 @@ Course syllabus is available [here](syllabus.pdf)
 
 Introduction to C++ course available at the MIT Open Courseware contains an excellent collection of notes.  You can find these [here](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-096-introduction-to-c-january-iap-2011/lecture-notes/).  
 
+Coding videos are available [here](https://www.youtube.com/playlist?list=PLxXSLsFiK684ncgWP0Aqe-5l5VfthqaOp).  Source code for these videos is available at Github [here](https://github.com/programming-workshop-2/coding-videos.git).
+
 We will be _programming_ during each lecture.  Please bring your laptop to class.  Please ensure that you are able to edit, compile and execute C++ programs via commandline interface.
 
 This course deals with C++ programming.  There are many online C++ help resources.  I encourage you to make use of these resources.  As far as books are concerned, I find the following textbook to be exceedingly useful._Absolute C++, 6th Edition_ by Walter Savitch.Students are encouraged to take their own notes during lectures.
