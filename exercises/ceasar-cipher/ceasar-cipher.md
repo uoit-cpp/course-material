@@ -4,7 +4,7 @@
 
 The Caesar cipher is a substitution cipher where each letter in the original message (called the plaintext) is replaced with a letter corresponding to a certain number of letters up or down in the alphabet.  The encrypted message (ciphertext) is not easily readable.
 
-For example, here's the Caesar Cipher encryption of a message, using a right shift of 3.
+For example, here's the Caesar Cipher encryption of a message, using a left shift of 3.
 
 __Plaintext:__  
 
@@ -23,7 +23,9 @@ You are asked to write a program that takes a shift value between +/- 26 and a _
 #### Example usage
 
 ~~~shell
-$ ceasar 3 THE
+$ ceasar
+Enter shift +/- 26: -3
+Enter plaintext message (A-Z only, no spaces): THE
 ciphertext: QEB
 plaintext: THE
 ~~~ 
@@ -31,7 +33,9 @@ plaintext: THE
 or
 
 ~~~bash
-$ ceasar -1 ZZZ
+$ ceasar
+Enter shift +/- 26: 1
+Enter plaintext message (A-Z only, no spaces): ZZZ
 ciphertext: AAA
 plaintext: ZZZ
 ~~~ 
