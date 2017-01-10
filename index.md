@@ -31,9 +31,9 @@ This course deals with C++ programming.  There are many online C++ help resource
 # Lectures
 ### Week 1 (Jan 9)
 
-- [Introduction](lectures/c++-intro)
-- [Ceasar cipher](exercises/ceasar-cipher/ceasar-cipher.md)
+- [CSCI 1060U review and introduction](lectures/c++-intro)
 - [File I/O](lectures/c++-fileio)
+- Exercise: [Ceasar cipher](exercises/ceasar-cipher/ceasar-cipher.md)
 
 ### Week 2 (Jan 16) 
 
