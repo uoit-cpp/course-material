@@ -32,6 +32,7 @@ This course deals with C++ programming.  There are many online C++ help resource
 ### Week 1 (Jan 9)
 
 - [Introduction](lectures/c++-intro)
+- [Ceasar cipher](exercises/ceasar-cipher/ceasar-cipher.md)
 - [File I/O](lectures/c++-fileio)
 
 ### Week 2 (Jan 16) 
