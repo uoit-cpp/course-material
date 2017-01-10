@@ -1,7 +1,7 @@
 # Lecture 1 Notes: Introduction
 
 __Faisal Qureshi__  
-__faisal.qureshi@uoit.ca__
+faisal.qureshi@uoit.ca
 
 _Please see credits below._
 ## Compiled Languages and C++ 
