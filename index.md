@@ -4,7 +4,7 @@ __Office:__ UA4032  __Phone:__ 905-721-8668 x 3626  __Email:__ faisal.qureshi@
 
 # General Info
 
-## Teaching Assistants- Mohammadamin Beirami- Robert deBruyn- Tony Joseph- Luisa Rojas## Lecture times- Tuesday, 11:10 am in UL9- Friday, 12:40 pm in UL9## Lab sessionsEach student will be assigned one of the following 4 lab sections.  All labs cover the same material.- Wednesday, 6:40 pm to 9:30 pm, Simcoe Building J123-A- Friday, 8:10 am to 11:00 am, Simcoe Building J123-A- Friday, 5:10 pm to 8:00 pm, Simcoe Building J123-A- Thursday, 6:40 pm to 9:30 pm, Simcoe Building J123-AScheduling information is available here [https://uoit.ca/mycampus/available-courses.php](https://uoit.ca/mycampus/available-courses.php)## Office Hours- Tuesday, 12:30 pm to 2 pm in UA4032- Or by appointment
+## Teaching Assistants- Mohammadamin Beirami- Robert deBruyn- Tony Joseph- Luisa Rojas## Lecture times- Tuesday, 11:10 am in UL9- Friday, 12:40 pm in UL9## Lab sessionsEach student will be assigned one of the following 4 lab sections.  All labs cover the same material.- Wednesday, 6:40 pm to 9:30 pm, Simcoe Building J123-A (Luisa)- Friday, 8:10 am to 11:00 am, Simcoe Building J123-A (Mohammadamin)- Friday, 5:10 pm to 8:00 pm, Simcoe Building J123-A (Tony)- Thursday, 6:40 pm to 9:30 pm, Simcoe Building J123-A (Robert)Scheduling information is available here [https://uoit.ca/mycampus/available-courses.php](https://uoit.ca/mycampus/available-courses.php)## Office Hours- Tuesday, 12:30 pm to 2 pm in UA4032- Or by appointment
 
 # GradingWork | Weight
 -----|-------Class participation and exercises |  10%Lab participation and completion | 20%Midterm exams (2) | 24%Assignments (3) | 20%Final exam | 26%A student must get 40% in the final exam to pass the course. ## Important DatesWork | Dates
@@ -33,8 +33,9 @@ This course deals with C++ programming.  There are many online C++ help resource
 # Lectures
 ### Week 1 (Jan 9)
 
-- [CSCI 1060U review and introduction](lectures/c++-intro)
-- [File I/O](lectures/c++-fileio)
+- [CSCI 1060U review and introduction](lectures/week-01/c++-intro)
+- [File I/O](lectures/week-01/c++-fileio)
+- Live coding: [ave.cpp](lectures/week-01/ave.cpp)
 - Exercise: [Ceasar cipher](exercises/ceasar-cipher/ceasar-cipher.md)
 
 ### Week 2 (Jan 16) 
