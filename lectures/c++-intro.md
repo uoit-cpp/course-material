@@ -1,4 +1,9 @@
 # Lecture 1 Notes: Introduction
+
+__Faisal Qureshi__  
+__faisal.qureshi@uoit.ca__
+
+_Please see credits below._
 ## Compiled Languages and C++ 
 
 ### Why Use a Language Like C++?At its core, a computer is just a processor with some memory, capable of running tiny instructions like “store 5 in memory location 23459.” Why would we express a program as a text file in a programming language, instead of writing processor instructions?The advantages:

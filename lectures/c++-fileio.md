@@ -19,6 +19,21 @@ __Note__: To perform file processing in C++, header files `<iostream>` and `<fst
 
 ### Opening a file for reading
 
+Use
+
+~~~cpp
+ifstream f("filename.txt");
+~~~
+
+or 
+
+~~~cpp
+ifstream f;
+f.open("filename.txt");
+~~~
+
+To setup `f` as the read stream from file `filename.txt`.  See the code below.
+
 ~~~cpp
 #include <iostream>
 #include <fstream>
@@ -58,7 +73,7 @@ This file contains 3 numbers.  Each number is on its own line.
 
 ##### Choice 1
 
-Read these numbers as strings
+Use `getline()` method
 
 ~~~cpp
 ...
@@ -77,6 +92,8 @@ if (f.is_open()) {
 ...
 ~~~
 
+[Source code](fileio-src/fileio-01.cpp)
+
 The above program will output
 
 ~~~bash
@@ -84,8 +101,6 @@ The above program will output
 23
 354
 ~~~
-
-[Source code](fileio-src/fileio-01.cpp)
 
 ###### Experiment
 
@@ -99,7 +114,7 @@ What will be the output of the above program (choice 1)?
 
 ##### Choice 2
 
-Read these numbers as integers
+Use extraction operator `>>`
 
 ~~~cpp
 ...
@@ -149,6 +164,21 @@ _Is it the same output?  If not, why not?_
 
 ### Opening a file for writing
 
+Use
+
+~~~cpp
+ofstream f("filename.txt");
+~~~
+
+or 
+
+~~~cpp
+ofstream f;
+f.open("filename.txt");
+~~~
+
+See the code below
+
 ~~~cpp
 #include <iostream>
 #include <fstream>
@@ -192,7 +222,7 @@ if (f.is_open()) {
 When you compile and run this program one of the following two will happen:
 
 - if numbers.txt file doesn't exist, it will be created.
-- if numbers.txt already exists, it will be overwritten.
+- if numbers.txt already exists, it will be __overwritten__.
 
 The contents of this file will be
 
@@ -203,7 +233,7 @@ The contents of this file will be
 
 #### Problem
 
-The above code overwrites the file everytime it opens it for writing.  We can solve this issue by tell the system to open file in the append mode.  Replace
+The above code __overwrites__ the file everytime it opens it for writing.  We can solve this issue by telling the system to open file in the append mode.  Replace
 
 ~~~cpp
 ofstream f("numbers.txt");
@@ -219,7 +249,7 @@ ofstream f("numbers.txt", ios::app);
 
 ### Buffered Output
 
-Output in C++ may be buffered. This means that anything that is output to a file stream may not be written to disk immediately.  Instead several writes may be group together to improve performance (disk access are painfully slow).  Typically buffered writes is not an issue; however, it can lead to problems in unique circumstances.  For example, if a program crashes.  The contents may not yet be written to the file and all changes may be lost.  It is possible to force a write by _flushing_.  Use `flush()` to force a write to the disk. 
+Output in C++ may be buffered. This means that anything that is output to a file stream may __not be written to disk immediately__.  Instead several writes may be group together to improve performance (disk access is painfully slow).  Typically buffered writes is not an issue; however, it can lead to problems in unique circumstances.  For example, if a program crashes.  The contents may not yet be written to the file and all changes may be lost.  It is possible to force a write by _flushing_.  Use `flush()` to force a write to the disk. 
 
 Note that closing a file also _flushes_ a buffer, forcing a write to the disk of course.
 
@@ -236,11 +266,11 @@ Alternately,
 f << "CSCI 1061U\n" << "Programming workshop 2" << endl;
 ~~~
 
-In practice, it is preferrable to use `flush()`.  This gives a clear signal that you intend to force a write-to-the-file.
+__Note:__ In practice, it is preferrable to use `flush()`.  This gives a clear signal that you intend to force a write-to-the-file.
 
 ### File modes
 
-File stream constructors take an optional second parameter that allows you to specify information about how the file should be opened. This parameter is called mode, and the valid flags that it accepts live in the Ios class.
+File stream constructors take an optional second parameter that allows you to specify information about how the file should be opened. This parameter is called mode, and the valid flags that it accepts live in the `ios` class.
 
 ios file mode | Meaning
 --------------|--------
@@ -257,9 +287,11 @@ It is possible to specify multiple flags by bitwise ORing them together (using t
 
 ## Binary files
 
-`ios:binary` mode flag can be used to open a file for read/write in binary mode.    Insertion `<<` and extraction `>>` operators are not meant to be used for binary mode files.  To understand the difference between the two modes, consider the following example.
+`ios:binary` mode flag can be used to open a file for read/write in binary mode.    
 
-Say you want to write 3.14159 to a file.  In text mode, this can be accomplished as `f << 3.14159`.  The `<<` operator will write '3', '.', '1','4','5','9' to the file, which will take 7 bytes.  In binary mode, however, it will only take 32 bits (or 4 bytes), since it will be written as a double.
+Insertion `<<` and extraction `>>` operators are not meant to be used for binary mode files.  
+
+To understand the difference between the two modes, consider the following example.  Say you want to write 3.14159 to a file.  In text mode, this can be accomplished as `f << 3.14159`.  The `<<` operator will write '3', '.', '1','4','5','9' to the file, which will take 7 bytes.  In binary mode, however, it will only take 32 bits (or 4 bytes), since it will be written as a double.
 
 You'll use `read` and `write` methods to read/write from binary files.
 
