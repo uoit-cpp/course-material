@@ -317,11 +317,13 @@ If there is a read error `gcount()` can be used to see how many bytes are actual
 
 It is possible to set the location in the file where you want to perform the next read or write.
 
-1. Move read location forward n bytes from the beginning: `f.seekg( n );`
+1. Move read location forward n bytes from the beginning: `f.seekg( n );`  It is also possible specify the beginning of a file using `ios::beg`.
 2. Move read location forward n bytes from the current location: `f.seekg( n, ios::cur );`
 3. Move read location back n bytes from the current location: `f.seekg( n, ios::end );`
 4. Find the current read location `f.tellg();`
 5. `seekp()` and `tellp()` can be used to move the write locations.
+
+
 
 # Exercises 
 
