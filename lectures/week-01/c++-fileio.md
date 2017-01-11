@@ -285,7 +285,7 @@ trunc | Erases the file if it already exists
 
 It is possible to specify multiple flags by bitwise ORing them together (using the `|` operator). 
 
-## Binary files
+### Binary files
 
 `ios:binary` mode flag can be used to open a file for read/write in binary mode.    
 
@@ -311,7 +311,9 @@ f.read(&d, sizeof(double));
 
 If there is a read error `gcount()` can be used to see how many bytes are actually read.
 
-## Random Access
+[Source code](fileio-src/fileio-04.cpp) showing storing and loading binary values to a file.
+
+### Random Access 
 
 It is possible to set the location in the file where you want to perform the next read or write.
 
@@ -321,7 +323,7 @@ It is possible to set the location in the file where you want to perform the nex
 4. Find the current read location `f.tellg();`
 5. `seekp()` and `tellp()` can be used to move the write locations.
 
-## Exercises
+# Exercises 
 
 1. Write a program for storing and loading 3D vectors to a file.
 2. Write a program for storing and loading lastname, firstname to a file.
