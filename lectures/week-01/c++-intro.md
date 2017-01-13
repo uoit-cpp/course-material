@@ -40,7 +40,7 @@ In C++, all these steps are performed ahead of time, before you start running a 
 
 C++ actually adds an extra step to the compilation process: the code is run through a preprocessor, which applies some modifications to the source code, before being fed to the compiler. Thus, the modified diagram is:
 
-![Cpp compilation process](./cpp-compilation-process)
+![Cpp compilation process](cpp-compilation-process)
 
 ### General Notes on C++
 
