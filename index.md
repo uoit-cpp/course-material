@@ -6,7 +6,7 @@ __Email:__ faisal.qureshi@uoit.net
 
 # News and such
 
-- **New location:**  Starting Tuesday, Jan 17, lectures will no take place in UA1120.  
+- **New location:**  Starting Tuesday, Jan 17, lectures will take place in UA1120.  
 
 # General Info
 
