@@ -4,6 +4,10 @@ __Office:__ UA4032
 __Phone:__ 905-721-8668 x 3626  
 __Email:__ faisal.qureshi@uoit.net
 
+# News and such
+
+- *New location*  Starting Tuesday, Jan 17, lectures will no take place in UA1120.  
+
 # General Info
 
 ## Teaching Assistants
