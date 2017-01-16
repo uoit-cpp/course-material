@@ -92,11 +92,11 @@ Students are encouraged to take their own notes during lectures.
 - [CSCI 1060U review and introduction](lectures/week-01/c++-intro)
 - [File I/O](lectures/week-01/c++-fileio)
 - Live coding: [ave.cpp](lectures/week-01/ave.cpp), [ave1.cpp](lectures/week-01/ave1.cpp), [cmdline arguments](lectures/week-01/cmd.cpp), [text-file-read](lectures/week-01/file-read.cpp), [text-file-write](lectures/week-01/file-write.cpp)
-- Exercise: [Ceasar cipher](exercises/ceasar-cipher/ceasar-cipher.md)
 
 ### Week 2 (Jan 16) 
 
 - Reading and writing binary files: [calc](lectures/week-02/calc.cpp), [calc with text log](lectures/week-02/calc-log.cpp), [calc with binary log](lectures/week-02/calc-blog.cpp), [calc blog read](lectures/week-02/calc-blog-read.cpp)
+- Exercise: [Ceasar cipher](exercises/ceasar-cipher/ceasar-cipher.md)
 
 ### Week 3 (Jan 23)
 
