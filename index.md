@@ -96,6 +96,8 @@ Students are encouraged to take their own notes during lectures.
 
 ### Week 2 (Jan 16) 
 
+- Reading and writing binary files: [calc](lectures/week-02/calc.cpp), [calc with text log](lectures/week-02/calc-log.cpp), [calc with binary log](lectures/week-02/calc-blog.cpp), [calc blog read](lectures/week-02/calc-blog-read.cpp)
+
 ### Week 3 (Jan 23)
 
 ### Week 4 (Jan 30)
