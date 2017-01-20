@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main()
+int main(int argc, char** argv)
 {
   double accum = 0.0;
   int n = 0;
