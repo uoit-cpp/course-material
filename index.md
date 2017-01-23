@@ -102,8 +102,6 @@ Students are encouraged to take their own notes during lectures.
 
 ### Week 3 (Jan 23)
 
-- Exercise: [Ceasar cipher](exercises/ceasar-cipher/ceasar-cipher.md)
-
 ### Week 4 (Jan 30)
 
 ### Week 5 (Feb 6)
