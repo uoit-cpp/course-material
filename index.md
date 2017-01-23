@@ -129,3 +129,7 @@ _Reading week break_
 - Week 1, no lab this week
 - Week 2, [setup](labs/lab1-setup)
 - Week 3, [caesar cipher](labs/lab2-caesar-cipher)
+
+# Assignments
+
+- [Assignment 1](assignments/a1.md), this needs to be submitted via Blackboard.
