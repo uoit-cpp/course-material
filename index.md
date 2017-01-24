@@ -97,10 +97,15 @@ Students are encouraged to take their own notes during lectures.
 ### Week 2 (Jan 16) 
 
 - Topics: pointers, dynamic memory allocation, variable scoping, binary representation, bitwise operators
+- Jottings: [Jan 17](lectures/week-02/note-2017-01-17.pdf), [Jan 20](lectures/week-02/note-2017-01-20.pdf)
 - Bit-wise operators: [binary-one-byte.cpp](lectures/week-02/binary-one-byte.cpp), [binary.cpp](lectures/week-02/binary.cpp)
 - A commandline calculator: [calc.cpp](lectures/week-02/calc.cpp)
 
 ### Week 3 (Jan 23)
+
+- Topics: binary files, read/write, seekg/tellg and seekp/tellp
+- Jottings: [Jan 24](lectures/week-02/note-2017-01-24.pdf) 
+- Live coding: [Calc with text log](lectures/week-02/calc2.cpp), [Text log reader](lectures/week-02/sherlock.cpp), [Calc with binary log](lectures/week-02/calc2-bin.cpp), [Binary log reader](lectures/week-02/watson.cpp)
 
 ### Week 4 (Jan 30)
 
