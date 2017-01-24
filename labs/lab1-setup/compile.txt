@@ -1,0 +1,4 @@
+g++ -c average.cpp
+ar rvs average.a average.o
+g++ -c lab1.cpp 
+g++ -o lab1 lab1.o average.a

@@ -126,6 +126,7 @@ _Reading week break_
 
 - Week 1, no lab this week
 - Week 2, [setup](labs/lab1-setup)
+	- Solu: [average.cpp](labs/lab1-setup/average.cpp), [average.h](labs/lab1-setup/average.h), [lab1.cpp](labs/lab1-setup/lab1.cpp), [helloworld.cpp](labs/lab1-setup/helloworld.cpp)
 - Week 3, [caesar cipher](labs/lab2-caesar-cipher)
 
 # Assignments
