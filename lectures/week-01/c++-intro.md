@@ -22,15 +22,7 @@ C++ is a high-level language: when you write a program in it, the shorthands are
 
 A program goes from text files (or source files) to processor instructions as follows:
 
-Source File
-Source File
-Compiler
-Compiler
-Object File
-Object File
-Linker OS Executable
-Libraries
-Program in Memory
+![Cpp compilation process](cpp-compilation-process.png)
 
 Object files are intermediate files that represent an incomplete copy of the program: each source file only expresses a piece of the program, so when it is compiled into an object file, the object file has some markers indicating which missing pieces it depends on. The linker takes those object files and the compiled libraries of predefined code that they rely on, fills in all the gaps, and spits out the final program, which can then be run by the operating system (OS).
 
@@ -40,7 +32,7 @@ In C++, all these steps are performed ahead of time, before you start running a 
 
 C++ actually adds an extra step to the compilation process: the code is run through a preprocessor, which applies some modifications to the source code, before being fed to the compiler. Thus, the modified diagram is:
 
-![Cpp compilation process](cpp-compilation-process.png)
+![Cpp preprocessor](cpp-preprocessor.png)
 
 ### General Notes on C++
 
