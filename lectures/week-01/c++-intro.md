@@ -34,6 +34,43 @@ C++ actually adds an extra step to the compilation process: the code is run thro
 
 ![Cpp preprocessor](cpp-preprocessor.png)
 
+#### Commandline tools
+
+Cpp files are compiled using a C++ compiler/linker to create the executable.
+
+##### Case 1 
+
+Using `g++` to create an executable from a single file cpp program
+
+~~~bash
+$ g++ hello.cpp -o hello
+~~~
+
+The above creates a program `hello` from `hello.cpp` file.
+
+##### Case 2 
+
+Using `g++` to create an object file from a cpp file, and then linking the object file to create the executable.
+
+~~~bash
+$ g++ -c hello.cpp
+$ g++ hello.o -o hello
+~~~
+
+The above creates a program `hello` from `hello.o` file.  File `hello.o` is created by compiling the cpp file.  Notice that we use the `-c` flag.
+
+##### Case 3 
+
+Using `g++` to compile/link a multi-file cpp program.
+
+~~~bash
+$ g++ -c file1.cpp
+$ g++ -c file2.cpp
+$ g++ file1.o file2.o -o myprogram
+~~~
+
+The above program creates two `.o` files and then link these to create the executable `myprogram`.
+
 ### General Notes on C++
 
 C++ is immensely popular, particularly for applications that require speed and/or access to some low-level features. It was created in 1979 by Bjarne Stroustrup, at first as a set of extensions to the C programming language. C++ extends C; our first few lectures will basically be on the C parts of the language.
