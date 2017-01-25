@@ -50,6 +50,8 @@ We assume that the user message only consists of uppercase English alphabet (A-Z
 
 You are now to extend the above program to take as inputs files.  The program should be able to read a file and encode or decode it as needed.  
 
+For the sake of simplicity, we assume that you only need to _change_ letters [A-Z] in the file.  You can safely ignore other letters in the file (i.e., keep those as is.)
+
 #### Encrypting a file to __cyphertext__
 
 Encrypt a file `in.txt` containing plaintext to a file `out.txt` containing ciphertext using shift `<shift>`.  Flag `-e` here refers to encryption.
@@ -58,12 +60,55 @@ Encrypt a file `in.txt` containing plaintext to a file `out.txt` containing ciph
 $ cf -e <shift> in.txt out.txt
 ~~~
 
+##### Example
+
+Consider `in.txt`
+
+~~~txt
+HELLO WORLD THIS IS AMAZING
+WHY IS THIS SO AMAZING
+I HAVE NO IDEA
+11231
+~~~
+
+After running the following command
+
+~~~bash
+$ ./cf -e 3 in.txt o.txt
+~~~
+
+File `o.txt` looks like
+
+~~~txt
+KHOOR ZRUOG WKLV LV DPDCLQJ
+ZKB LV WKLV VR DPDCLQJ
+L KDYH QR LGHD
+11231
+~~~
+
 #### Decrypting a file to __plaintext__
 
 Decrypting a file `in.txt` containing ciphertext to a file `out.txt` containing plaintext using shift `<shift>`.  Flag `-d` here refers to decryption.
 
 ~~~bash
 $ cf -d <shift> in.txt out.txt 
+~~~
+
+##### Example
+
+After running the following command
+
+~~~bash
+$ ./cf -d 3 o.txt out.txt
+~~~
+
+File `out.txt` looks like
+
+~~~txt
+HELLO WORLD THIS IS AMAZING
+WHY IS THIS SO AMAZING
+I HAVE NO IDEA
+11231
 ~~~
 
 ### Submission
