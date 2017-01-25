@@ -2,7 +2,7 @@
 
 ## Lab 2 - Caesar Cipher
 
-**Due back on Saturday, February 28 before 11:59 pm.**
+**Due back on Saturday, January 28 before 11:59 pm.**
 
 ### Introduction
 
