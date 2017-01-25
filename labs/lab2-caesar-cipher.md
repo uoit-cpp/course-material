@@ -62,7 +62,7 @@ $ cf -e <shift> in.txt out.txt
 
 ##### Example
 
-Consider `in.txt`
+Consider `f1.txt`
 
 ~~~txt
 HELLO WORLD THIS IS AMAZING
@@ -74,10 +74,10 @@ I HAVE NO IDEA
 After running the following command
 
 ~~~bash
-$ ./cf -e 3 in.txt o.txt
+$ ./cf -e 3 f1.txt f2.txt
 ~~~
 
-File `o.txt` looks like
+File `f2.txt` looks like
 
 ~~~txt
 KHOOR ZRUOG WKLV LV DPDCLQJ
@@ -99,10 +99,10 @@ $ cf -d <shift> in.txt out.txt
 After running the following command
 
 ~~~bash
-$ ./cf -d 3 o.txt out.txt
+$ ./cf -d 3 f2.txt f3.txt
 ~~~
 
-File `out.txt` looks like
+File `f3.txt` looks like
 
 ~~~txt
 HELLO WORLD THIS IS AMAZING
