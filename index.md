@@ -89,17 +89,17 @@ Students are encouraged to take their own notes during lectures.
 
 ### Week 1 (Jan 9)
 
-- Topics: variables, control flows, loops and conditions, command line arguments, reading and writing text files
+- Topics: variables, control flows, loops and conditions, reading and writing text files
 - [CSCI 1060U review and introduction](lectures/week-01/c++-intro)
 - [File I/O](lectures/week-01/c++-fileio)
 - Live coding: [ave.cpp](lectures/week-01/ave.cpp), [ave1.cpp](lectures/week-01/ave1.cpp), [cmdline arguments](lectures/week-01/cmd.cpp), [text-file-read](lectures/week-01/file-read.cpp), [text-file-write](lectures/week-01/file-write.cpp)
 
 ### Week 2 (Jan 16) 
 
-- Topics: pointers, dynamic memory allocation, variable scoping, binary representation, bitwise operators
+- Topics: pointers, dynamic memory allocation, variable scoping, binary representation, bitwise operators, [command line arguments](lectures/week-02/cmdline-arguments)
 - Jottings: [Jan 17](lectures/week-02/note-2017-01-17.pdf), [Jan 20](lectures/week-02/note-2017-01-20.pdf)
 - Bit-wise operators: [binary-one-byte.cpp](lectures/week-02/binary-one-byte.cpp), [binary.cpp](lectures/week-02/binary.cpp)
-- A commandline calculator: [calc.cpp](lectures/week-02/calc.cpp)
+- A command line calculator: [calc.cpp](lectures/week-02/calc.cpp)
 
 ### Week 3 (Jan 23)
 
