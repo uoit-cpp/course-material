@@ -105,7 +105,7 @@ Students are encouraged to take their own notes during lectures.
 
 - Topics: binary files, read/write, seekg/tellg and seekp/tellp
 - Jottings: [Jan 24](lectures/week-03/note-2017-01-24.pdf) 
-- Live coding: [Calc with text log](lectures/week-03/calc2.cpp), [Text log reader](lectures/week-03/sherlock.cpp), [Calc with binary log](lectures/week-03/calc2-bin.cpp), [Binary log reader](lectures/week-03/watson.cpp)
+- Live coding: [Calc with text log](lectures/week-03/calc2.cpp), [Text log reader](lectures/week-03/sherlock.cpp), [Calc with binary log](lectures/week-03/calc2-bin.cpp), [Binary log reader](lectures/week-03/watson.cpp), [Read/write files](lectures/week-03/rw.cpp), [String streams](lectures/week-03/ss.cpp), [C++ struct](lectures/week-03/struct.cpp)
 
 ### Week 4 (Jan 30)
 
