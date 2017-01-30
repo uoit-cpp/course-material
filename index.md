@@ -109,6 +109,9 @@ Students are encouraged to take their own notes during lectures.
 
 ### Week 4 (Jan 30)
 
+- Topics: multi-file C++ programs, Makefile [notes](lectures/week-04/makefiles/csc1061u-makefiles.pdf), [1](lectures/week-04/makefiles/src/Makefile)), 
+[2](lectures/week-04/makefiles/src/Makefile2.make), [3](lectures/week-04/makefiles/src/Makefile3.make), [4](lectures/week-04/makefiles/src/Makefile4.make), [5](lectures/week-04/makefiles/src/greetings.cpp), [6](lectures/week-04/makefiles/src/greetings.h), [7](lectures/week-04/makefiles/src/main.cpp)
+
 ### Week 5 (Feb 6)
 
 ### Week 6 (Feb 13)
