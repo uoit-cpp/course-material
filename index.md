@@ -54,7 +54,7 @@ A student must get 40% in the final exam to pass the course.
 
 Work | Dates
 -----|------
-Assignment 1 | Jan 23 – Feb 5
+Assignment 1 | Jan 23 – Feb 5 (revised Feb 7)
 Assignment 2 | Feb 20 – Mar 5
 Assignment 3 | Mar 20 – Apr 2
 Midterm 1 | Feb 14 in class
