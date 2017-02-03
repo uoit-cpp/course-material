@@ -109,12 +109,14 @@ Students are encouraged to take their own notes during lectures.
 
 ### Week 4 (Jan 30)
 
-- Topics: multi-file C++ programs, Makefile [notes](lectures/week-04/makefiles/csc1061u-makefiles.pdf), [Makefile ex.](lectures/week-04/makefiles/src/Makefile), 
-[Makefile ex.](lectures/week-04/makefiles/src/Makefile2.make), [Makefile ex.](lectures/week-04/makefiles/src/Makefile3.make), [Makefile ex.](lectures/week-04/makefiles/src/Makefile4.make), [greetings.cpp](lectures/week-04/makefiles/src/greetings.cpp), [greetings.h](lectures/week-04/makefiles/src/greetings.h), [main.cpp](lectures/week-04/makefiles/src/main.cpp)
+- Topics: multi-file C++ programs, Makefile [notes](lectures/week-04/makefiles/csc1061u-makefiles.pdf), [Makefile ex. 1](lectures/week-04/makefiles/src/Makefile), 
+[Makefile ex. 2](lectures/week-04/makefiles/src/Makefile2.make), [Makefile ex. 3](lectures/week-04/makefiles/src/Makefile3.make), [Makefile ex. 4](lectures/week-04/makefiles/src/Makefile4.make), [greetings.cpp](lectures/week-04/makefiles/src/greetings.cpp), [greetings.h](lectures/week-04/makefiles/src/greetings.h), [main.cpp](lectures/week-04/makefiles/src/main.cpp)
 
 ### Week 5 (Feb 6)
 
 ### Week 6 (Feb 13)
+
+- Midterm, Feb 14., in class
 
 _Reading week break_
 
