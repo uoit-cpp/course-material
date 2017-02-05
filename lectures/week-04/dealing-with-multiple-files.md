@@ -125,10 +125,10 @@ $ g++ -c out.cpp
 $ g++ -c math.cpp
 ~~~
 
-Now link the object files to create the executable.
+Now link the object files to create the executable `ar`.
 
 ~~~bash
-$ g++ main.o out.o math.o -o arr
+$ g++ main.o out.o math.o -o ar
 ~~~
 
 Now you can execute the program as follows:
