@@ -111,6 +111,7 @@ Students are encouraged to take their own notes during lectures.
 
 - Topics: multi-file C++ programs, Makefile [notes](lectures/week-04/makefiles/csc1061u-makefiles.pdf), [Makefile ex. 1](lectures/week-04/makefiles/src/Makefile), 
 [Makefile ex. 2](lectures/week-04/makefiles/src/Makefile2.make), [Makefile ex. 3](lectures/week-04/makefiles/src/Makefile3.make), [Makefile ex. 4](lectures/week-04/makefiles/src/Makefile4.make), [greetings.cpp](lectures/week-04/makefiles/src/greetings.cpp), [greetings.h](lectures/week-04/makefiles/src/greetings.h), [main.cpp](lectures/week-04/makefiles/src/main.cpp)
+- [Dealing with Multiple Files](lectures/week-04/dealing-with-multiple-files)
 
 ### Week 5 (Feb 6)
 
