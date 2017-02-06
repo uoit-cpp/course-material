@@ -139,6 +139,7 @@ _Reading week break_
 - Week 2, [setup](labs/lab1-setup)
 	- Solu: [average.cpp](labs/lab1-setup/average.cpp), [average.h](labs/lab1-setup/average.h), [lab1.cpp](labs/lab1-setup/lab1.cpp), [helloworld.cpp](labs/lab1-setup/helloworld.cpp)
 - Week 3, [caesar cipher](labs/lab2-caesar-cipher)
+	- Solu: [cf.cpp](labs/lab2-caesar-cipher/cf.cpp) 
 - Week 4, [C++ struct](labs/lab3-struct)
 - Week 5, [Multi-file programs](labs/lab4-multifile)
 
