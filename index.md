@@ -90,6 +90,7 @@ Students are encouraged to take their own notes during lectures.
 ### Week 1 (Jan 9)
 
 - Topics: variables, control flows, loops and conditions, reading and writing text files
+- Notes: [variables and flow control](lectures/week-01/csci1061-notes-variables-and-control-flow.pdf), [arrays](lectures/week-01/arrays.pdf), [functions](lectures/week-03/functions.pdf)
 - [CSCI 1060U review and introduction](lectures/week-01/c++-intro)
 - [File I/O](lectures/week-01/c++-fileio)
 - Live coding: [ave.cpp](lectures/week-01/ave.cpp), [ave1.cpp](lectures/week-01/ave1.cpp), [cmdline arguments](lectures/week-01/cmd.cpp), [text-file-read](lectures/week-01/file-read.cpp), [text-file-write](lectures/week-01/file-write.cpp)
