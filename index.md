@@ -117,7 +117,7 @@ Students are encouraged to take their own notes during lectures.
 
 - Topics: classes
 - [vec2 class](lectures/week-05/vec2)
-- File copy exercise [solu](exercises/file-copy/file-copy.cpp)
+- File copy exercise [[solu]](exercises/file-copy/file-copy.cpp)
 
 ### Week 6 (Feb 13)
 
