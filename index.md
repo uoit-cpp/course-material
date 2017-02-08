@@ -7,6 +7,7 @@ __Email:__ faisal.qureshi@uoit.net
 # News and such
 
 - **New location:**  Starting Tuesday, Jan 17, lectures will take place in UA1120.  
+- **Midterm will take place on Feb. 14 in class.**  The midterm will contain both a written portion and a programming component.  Please ensure that your laptops are able to edit and compile CPP programs.  You will not be allowed to access the internet or existing code on your computer.  You are encouraged to prepare a 1 page (letter, 2-sided) CPP cheatsheet that you can bring to the midterm.  You will be allowed to use this cheatsheet during the programming part of the midterm.  The midterm will cover everything that we discuss till Friday, Feb. 10. 
 
 # General Info
 
@@ -146,6 +147,7 @@ _Reading week break_
 	- Solu: [cf.cpp](labs/lab2-caesar-cipher/cf.cpp) 
 - Week 4, [C++ struct](labs/lab3-struct)
 - Week 5, [Multi-file programs](labs/lab4-multifile)
+- Week 6, No lab this week.  Its midterm week.
 
 # Assignments
 
