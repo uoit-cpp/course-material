@@ -199,4 +199,6 @@ _Reading week break_
 
 # Assignments
 
-- [Assignment 1](assignments/a1.md), this needs to be submitted via Blackboard.
+- Assignment 1
+	- [Handout](assignments/a1), this needs to be submitted via Blackboard.
+	- [Solution](assignments/a1-solution)
