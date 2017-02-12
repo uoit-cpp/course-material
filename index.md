@@ -103,8 +103,8 @@ Students are encouraged to take their own notes during lectures.
 ### Week 2 (Jan 16) 
 
 - Topics: pointers, dynamic memory allocation, variable scoping, binary representation, bitwise operators
-	- [command line arguments](lectures/week-02/cmdline-arguments)
-	- [io redirection](lectures/week-02/io-redirection)
+	- [Command line arguments](lectures/week-02/cmdline-arguments)
+	- [IO redirection](lectures/week-02/io-redirection)
 - Jottings
 	- [Jan 17](lectures/week-02/note-2017-01-17.pdf) 
 	- [Jan 20](lectures/week-02/note-2017-01-20.pdf)
@@ -150,7 +150,7 @@ Students are encouraged to take their own notes during lectures.
 	- [vec2 class ver. 1](lectures/week-05/vec2)
 - File copy exercise
 	- [Exercise](exercises/file-copy/file-copy-exercise) 
-	- [Solu](exercises/file-copy/file-copy.cpp)
+	- [Solution](exercises/file-copy/file-copy.cpp)
 
 ### Week 6 (Feb 13)
 
@@ -191,6 +191,10 @@ _Reading week break_
 		- [prn-employee.cpp](labs/lab3-struct/prn-employee.cpp) 
 - Week 5, Multi-file programs
 	- [Handout](labs/lab4-multifile)
+	- Solution
+		- [Makefile](labs/lab4-multifile/Makefile)
+		- [main.cpp](labs/lab4-multifile/main.cpp)
+		- [count.cpp](labs/lab4-multifile/count.cpp)
 - Week 6, No lab this week.  Its midterm week.
 
 # Assignments
