@@ -91,34 +91,66 @@ Students are encouraged to take their own notes during lectures.
 ### Week 1 (Jan 9)
 
 - Topics: variables, control flows, loops and conditions, reading and writing text files
-- [CSCI 1060U review and introduction](lectures/week-01/c++-intro)
-- [File I/O](lectures/week-01/c++-fileio)
-- Live coding: [ave.cpp](lectures/week-01/ave.cpp), [ave1.cpp](lectures/week-01/ave1.cpp), [cmdline arguments](lectures/week-01/cmd.cpp), [text-file-read](lectures/week-01/file-read.cpp), [text-file-write](lectures/week-01/file-write.cpp)
+	- [CSCI 1060U review and introduction](lectures/week-01/c++-intro)
+	- [File I/O](lectures/week-01/c++-fileio)
+- Live coding 
+	- [ave.cpp](lectures/week-01/ave.cpp)
+	- [ave1.cpp](lectures/week-01/ave1.cpp)
+	- [cmdline arguments](lectures/week-01/cmd.cpp)
+	- [text-file-read](lectures/week-01/file-read.cpp)
+	- [text-file-write](lectures/week-01/file-write.cpp)
 
 ### Week 2 (Jan 16) 
 
-- Topics: pointers, dynamic memory allocation, variable scoping, binary representation, bitwise operators, [command line arguments](lectures/week-02/cmdline-arguments)
-- Jottings: [Jan 17](lectures/week-02/note-2017-01-17.pdf), [Jan 20](lectures/week-02/note-2017-01-20.pdf)
-- Bit-wise operators: [binary-one-byte.cpp](lectures/week-02/binary-one-byte.cpp), [binary.cpp](lectures/week-02/binary.cpp)
-- A command line calculator: [calc.cpp](lectures/week-02/calc.cpp)
+- Topics: pointers, dynamic memory allocation, variable scoping, binary representation, bitwise operators
+	- [command line arguments](lectures/week-02/cmdline-arguments)
+	- [io redirection](lectures/week-02/io-redirection)
+- Jottings
+	- [Jan 17](lectures/week-02/note-2017-01-17.pdf) 
+	- [Jan 20](lectures/week-02/note-2017-01-20.pdf)
+- Bit-wise operators 
+	- [binary-one-byte.cpp](lectures/week-02/binary-one-byte.cpp)
+	- [binary.cpp](lectures/week-02/binary.cpp)
+- A command line calculator
+	- [calc.cpp](lectures/week-02/calc.cpp)
 
 ### Week 3 (Jan 23)
 
-- Topics: binary files, read/write, seekg/tellg and seekp/tellp, [C++ struct](lectures/week-03/cpp-struct)
-- Jottings: [Jan 24](lectures/week-03/note-2017-01-24.pdf), [Jan 27](lectures/week-03/note-2017-01-27.pdf)
-- Live coding: [Calc with text log](lectures/week-03/calc2.cpp), [Text log reader](lectures/week-03/sherlock.cpp), [Calc with binary log](lectures/week-03/calc2-bin.cpp), [Binary log reader](lectures/week-03/watson.cpp), [Read/write files](lectures/week-03/rw.cpp), [String streams](lectures/week-03/ss.cpp), [C++ struct](lectures/week-03/struct.cpp)
+- Topics: binary files, read/write, seekg/tellg and seekp/tellp
+	- [C++ struct](lectures/week-03/cpp-struct)
+- Jottings: 
+	- [Jan 24](lectures/week-03/note-2017-01-24.pdf)
+	- [Jan 27](lectures/week-03/note-2017-01-27.pdf)
+- Live coding
+	- [Calc with text log](lectures/week-03/calc2.cpp)
+	- [Text log reader](lectures/week-03/sherlock.cpp)
+	- [Calc with binary log](lectures/week-03/calc2-bin.cpp)
+	- [Binary log reader](lectures/week-03/watson.cpp)
+	- [Read/write files](lectures/week-03/rw.cpp)
+	- [String streams](lectures/week-03/ss.cpp)
+	- [C++ struct](lectures/week-03/struct.cpp)
 
 ### Week 4 (Jan 30)
 
-- Topics: multi-file C++ programs, Makefile [notes](lectures/week-04/makefiles/csc1061u-makefiles.pdf), [Makefile ex. 1](lectures/week-04/makefiles/src/Makefile), 
-[Makefile ex. 2](lectures/week-04/makefiles/src/Makefile2.make), [Makefile ex. 3](lectures/week-04/makefiles/src/Makefile3.make), [Makefile ex. 4](lectures/week-04/makefiles/src/Makefile4.make), [greetings.cpp](lectures/week-04/makefiles/src/greetings.cpp), [greetings.h](lectures/week-04/makefiles/src/greetings.h), [main.cpp](lectures/week-04/makefiles/src/main.cpp)
-- [Dealing with Multiple Files](lectures/week-04/dealing-with-multiple-files)
-
+- Topics: multi-file C++ programs, Makefile 
+	- [Slides](lectures/week-04/makefiles/csc1061u-makefiles.pdf)
+	- [Dealing with Multiple Files](lectures/week-04/dealing-with-multiple-files)
+- Example code
+	- [Makefile ex. 1](lectures/week-04/makefiles/src/Makefile)
+	- [Makefile ex. 2](lectures/week-04/makefiles/src/Makefile2.make)
+	- [Makefile ex. 3](lectures/week-04/makefiles/src/Makefile3.make)
+	- [Makefile ex. 4](lectures/week-04/makefiles/src/Makefile4.make)
+	- [greetings.cpp](lectures/week-04/makefiles/src/greetings.cpp)
+	- [greetings.h](lectures/week-04/makefiles/src/greetings.h)
+	- [main.cpp](lectures/week-04/makefiles/src/main.cpp)
+	
 ### Week 5 (Feb 6)
 
 - Topics: classes
-- [vec2 class](lectures/week-05/vec2)
-- File copy exercise [[solu](exercises/file-copy/file-copy.cpp)]
+	- [vec2 class ver. 1](lectures/week-05/vec2)
+- File copy exercise
+	- [Exercise](exercises/file-copy/file-copy-exercise) 
+	- [Solu](exercises/file-copy/file-copy.cpp)
 
 ### Week 6 (Feb 13)
 
@@ -141,12 +173,24 @@ _Reading week break_
 # Labs
 
 - Week 1, no lab this week
-- Week 2, [setup](labs/lab1-setup)
-	- Solu: [average.cpp](labs/lab1-setup/average.cpp), [average.h](labs/lab1-setup/average.h), [lab1.cpp](labs/lab1-setup/lab1.cpp), [helloworld.cpp](labs/lab1-setup/helloworld.cpp)
-- Week 3, [caesar cipher](labs/lab2-caesar-cipher)
-	- Solu: [cf.cpp](labs/lab2-caesar-cipher/cf.cpp) 
-- Week 4, [C++ struct](labs/lab3-struct)
-- Week 5, [Multi-file programs](labs/lab4-multifile)
+- Week 2, Setup
+	- [Handout](labs/lab1-setup)
+	- Solution 
+		- [average.cpp](labs/lab1-setup/average.cpp)
+		- [average.h](labs/lab1-setup/average.h)
+		- [lab1.cpp](labs/lab1-setup/lab1.cpp)
+		- [helloworld.cpp](labs/lab1-setup/helloworld.cpp)
+- Week 3, Caesar cipher
+	- [Handout](labs/lab2-caesar-cipher)
+	- Solution
+		- [cf.cpp](labs/lab2-caesar-cipher/cf.cpp) 
+- Week 4, C++ struct
+	- [Handout](labs/lab3-struct)
+	- Solution sketch
+		- [add-employee.cpp](labs/lab3-struct/add-employee.cpp) 
+		- [prn-employee.cpp](labs/lab3-struct/prn-employee.cpp) 
+- Week 5, Multi-file programs
+	- [Handout](labs/lab4-multifile)
 - Week 6, No lab this week.  Its midterm week.
 
 # Assignments
