@@ -202,3 +202,6 @@ _Reading week break_
 - Assignment 1
 	- [Handout](assignments/a1), this needs to be submitted via Blackboard.
 	- [Solution](assignments/a1-solution)
+- Assignment 2
+	- [Handout](assignments/a2), this needs to be submitted via Blackboard.	
+	
