@@ -196,6 +196,9 @@ _Reading week break_
 		- [main.cpp](labs/lab4-multifile/main.cpp)
 		- [count.cpp](labs/lab4-multifile/count.cpp)
 - Week 6, No lab this week.  Its midterm week.
+- Week 7, Reading week
+- Week 8, 3-Dimensional vector class
+	- [Handout](labs/lab5-class-vec3) 
 
 # Assignments
 
