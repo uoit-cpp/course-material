@@ -146,7 +146,7 @@ Students are encouraged to take their own notes during lectures.
 	
 ### Week 5 (Feb 6)
 
-- Topics: classes
+- Topics: classes, constructors, destructors, etc.
 	- [vec2 class ver. 1](lectures/week-05/vec2)
 - File copy exercise
 	- [Exercise](exercises/file-copy/file-copy-exercise) 
@@ -155,6 +155,8 @@ Students are encouraged to take their own notes during lectures.
 ### Week 6 (Feb 13)
 
 - Midterm, Feb 14., in class
+- Topics: const and friend functions, insertion and extraction operators
+	- [vec2 class ver. 2](lectures/week-05/vec2-v2) 
 
 _Reading week break_
 
