@@ -158,23 +158,24 @@ Students are encouraged to take their own notes during lectures.
 - Topics: const and friend functions, insertion and extraction operators
 	- [vec2 class ver. 2](lectures/week-06/vec2-v2) 
 
-_Reading week break_
+## Week 7 _Reading week break_
 
-### Week 7 (Feb 27)
+### Week 8 (Feb 27)
 
 - Topics: more about classes
+	- [Arr class part 1](lectures/week-08/dynamic-array-part1)
 - Dynamic array exercise
 	- [Exercise](exercises/dynamic-array-class/dynamic-array-exercise-part1) 
 
-### Week 8 (Mar 6)
+### Week 9 (Mar 6)
 
-### Week 9 (Mar 13)
+### Week 10 (Mar 13)
 
-### Week 10 (Mar 20)
+### Week 11 (Mar 20)
 
-### Week 11 (Mar 27)
+### Week 12 (Mar 27)
 
-### Week 12 (Apr 3)
+### Week 13 (Apr 3)
 
 # Labs
 
