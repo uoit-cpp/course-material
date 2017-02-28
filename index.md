@@ -163,6 +163,8 @@ _Reading week break_
 ### Week 7 (Feb 27)
 
 - Topics: more about classes
+- Dynamic array exercise
+	- [Exercise](exercises/dynamic-array-class/dynamic-array-exercise-part1) 
 
 ### Week 8 (Mar 6)
 
