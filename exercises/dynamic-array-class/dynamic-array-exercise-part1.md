@@ -4,7 +4,7 @@
 
 __Must be completed during the class__  See submission instructions below.
 
-### A Dynamic Array Class
+### Dynamic Array Class Part 1
 
 Write a `Arr` class that implements a dynamic array for storing double values.  It should have the following functionality.
 

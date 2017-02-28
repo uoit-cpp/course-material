@@ -164,8 +164,11 @@ Students are encouraged to take their own notes during lectures.
 
 - Topics: more about classes
 	- [Arr class part 1](lectures/week-08/dynamic-array-part1)
-- Dynamic array exercise
+- Dynamic array exercise part 1
 	- [Exercise](exercises/dynamic-array-class/dynamic-array-exercise-part1) 
+	- [Solution](exercises/dynamic-array-class/dynamic-array-exercise-part1-solution)
+- Dynamic array exercise part 2
+	- [Exercise](exercises/dynamic-array-class/dynamic-array-exercise-part2) 
 
 ### Week 9 (Mar 6)
 
