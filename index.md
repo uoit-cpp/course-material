@@ -156,11 +156,13 @@ Students are encouraged to take their own notes during lectures.
 
 - Midterm, Feb 14., in class
 - Topics: const and friend functions, insertion and extraction operators
-	- [vec2 class ver. 2](lectures/week-05/vec2-v2) 
+	- [vec2 class ver. 2](lectures/week-06/vec2-v2) 
 
 _Reading week break_
 
 ### Week 7 (Feb 27)
+
+- Topics: more about classes
 
 ### Week 8 (Mar 6)
 
