@@ -208,7 +208,9 @@ Students are encouraged to take their own notes during lectures.
 - Week 6, No lab this week.  Its midterm week.
 - Week 7, Reading week
 - Week 8, 3-Dimensional vector class
-	- [Handout](labs/lab5-class-vec3) 
+	- [Handout](labs/lab5-class-vec3)
+- Week 9, Our very own string class
+	- [Handout](labs/lab6-class-str) 
 
 # Assignments
 
