@@ -166,6 +166,6 @@ Hello World
 123 345
 ~~~
 
-###Submission
+### Submission
 
 Please submit the completed `str.cpp` file via Blackboard.
