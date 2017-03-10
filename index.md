@@ -8,6 +8,7 @@ __Email:__ faisal.qureshi@uoit.net
 
 - **New location:**  Starting Tuesday, Jan 17, lectures will take place in UA1120.  
 - **Midterm will take place on Feb. 14 in class.**  The midterm will contain both a written portion and a programming component.  Please ensure that your laptops are able to edit and compile CPP programs.  You will not be allowed to access the internet or existing code on your computer.  You are encouraged to prepare a 1 page (letter, 2-sided) CPP cheatsheet that you can bring to the midterm.  You will be allowed to use this cheatsheet during the programming part of the midterm.  The midterm will cover everything that we discuss till Friday, Feb. 10. 
+- **Midterm 2 will take place on Mar. 14 in class.**  This is a paper-only midterm.  It will consist of both "multiple-choice" and "short-answers" questions.  _Please bring a pencil to the midterm._  You _may_ be asked to mark answers on a Scantron sheet, and you'll have to use a pencil to do so.  _No aids are allowed, i.e., no cheat sheet._
 
 # General Info
 
@@ -158,7 +159,7 @@ Students are encouraged to take their own notes during lectures.
 - Topics: const and friend functions, insertion and extraction operators
 	- [vec2 class ver. 2](lectures/week-06/vec2-v2) 
 
-## Week 7 _Reading week break_
+### Week 7 _Reading week break_
 
 ### Week 8 (Feb 27)
 
@@ -167,10 +168,15 @@ Students are encouraged to take their own notes during lectures.
 - Dynamic array exercise part 1
 	- [Exercise](exercises/dynamic-array-class/dynamic-array-exercise-part1) 
 	- [Solution](exercises/dynamic-array-class/dynamic-array-exercise-part1-solution)
-- Dynamic array exercise part 2
-	- [Exercise](exercises/dynamic-array-class/dynamic-array-exercise-part2) 
-
+- Jottings
+	- [28 Feb. 2017](lectures/week-08/2017-02-28-jottings.pdf) 	- [3 Mar. 2017](lectures/week-08/2017-03-03-jottings.pdf) 
+	
 ### Week 9 (Mar 6)
+
+- Topics: Inheritance
+	- [Slides](lectures/week-09/csci-1061-inheritance.pdf)
+- Jottings
+	- [7 Mar. 2017](lectures/week-09/2017-03-07-jottings.pdf) 
 
 ### Week 10 (Mar 13)
 
