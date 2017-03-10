@@ -225,7 +225,7 @@ Students are encouraged to take their own notes during lectures.
 	- Solution
 		- [main.cpp](labs/lab6-class-str/main.cpp)
 		- [str.h](labs/lab6-class-str/str.h)
-		- [str.cpp](labs/lab6-class-str/str) 
+		- [str.cpp](labs/lab6-class-str/str.cpp) 
 
 # Assignments
 
