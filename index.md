@@ -169,7 +169,8 @@ Students are encouraged to take their own notes during lectures.
 	- [Exercise](exercises/dynamic-array-class/dynamic-array-exercise-part1) 
 	- [Solution](exercises/dynamic-array-class/dynamic-array-exercise-part1-solution)
 - Jottings
-	- [28 Feb. 2017](lectures/week-08/2017-02-28-jottings.pdf) 	- [3 Mar. 2017](lectures/week-08/2017-03-03-jottings.pdf) 
+	- [28 Feb. 2017](lectures/week-08/2017-02-28-jottings.pdf) 
+	- [3 Mar. 2017](lectures/week-08/2017-03-03-jottings.pdf) 
 	
 ### Week 9 (Mar 6)
 
