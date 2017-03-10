@@ -215,8 +215,16 @@ Students are encouraged to take their own notes during lectures.
 - Week 7, Reading week
 - Week 8, 3-Dimensional vector class
 	- [Handout](labs/lab5-class-vec3)
+	- Solution
+		- [main.cpp](labs/lab5-class-vec3/main.cpp)
+		- [vec3.h](labs/lab5-class-vec3/vec3.h)
+		- [vec3.cpp](labs/lab5-class-vec3/vec3.cpp)
 - Week 9, Our very own string class
 	- [Handout](labs/lab6-class-str) 
+	- Solution
+		- [main.cpp](labs/lab6-class-str/main.cpp)
+		- [str.h](labs/lab6-class-str/str.h)
+		- [str.cpp](labs/lab6-class-str/str) 
 
 # Assignments
 
@@ -224,5 +232,8 @@ Students are encouraged to take their own notes during lectures.
 	- [Handout](assignments/a1), this needs to be submitted via Blackboard.
 	- [Solution](assignments/a1-solution)
 - Assignment 2
-	- [Handout](assignments/a2), this needs to be submitted via Blackboard.	
+	- [Handout](assignments/a2), this needs to be submitted via Blackboard.	- Solution
+		- [main.cpp](assignments/a2-solution/main.cpp)
+		- [Mat.h](assignments/a2-solution/Mat.h)
+		- [Mat.cpp](assignments/a2-solution/Mat.cpp) 	
 	
