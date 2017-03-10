@@ -233,7 +233,8 @@ Students are encouraged to take their own notes during lectures.
 	- [Handout](assignments/a1), this needs to be submitted via Blackboard.
 	- [Solution](assignments/a1-solution)
 - Assignment 2
-	- [Handout](assignments/a2), this needs to be submitted via Blackboard.	- Solution
+	- [Handout](assignments/a2), this needs to be submitted via Blackboard.
+	- Solution
 		- [main.cpp](assignments/a2-solution/main.cpp)
 		- [Mat.h](assignments/a2-solution/Mat.h)
 		- [Mat.cpp](assignments/a2-solution/Mat.cpp) 	
