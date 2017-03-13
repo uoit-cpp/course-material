@@ -176,8 +176,10 @@ Students are encouraged to take their own notes during lectures.
 
 - Topics: Inheritance
 	- [Slides](lectures/week-09/csci-1061-inheritance.pdf)
+	- [Slides](lectures/week-09/csci-1061-virtual-functions.pdf) 
 - Jottings
-	- [7 Mar. 2017](lectures/week-09/2017-03-07-jottings.pdf) 
+	- [7 Mar. 2017](lectures/week-09/2017-03-07-jottings.pdf)
+	- [10 Mar. 2017](lectures/week-09/2017-03-10-jottings.pdf)  
 
 ### Week 10 (Mar 13)
 
@@ -212,7 +214,7 @@ Students are encouraged to take their own notes during lectures.
 		- [Makefile](labs/lab4-multifile/Makefile)
 		- [main.cpp](labs/lab4-multifile/main.cpp)
 		- [count.cpp](labs/lab4-multifile/count.cpp)
-- Week 6, No lab this week.  Its midterm week.
+- Week 6, No lab this week.  It is midterm week.
 - Week 7, Reading week
 - Week 8, 3-Dimensional vector class
 	- [Handout](labs/lab5-class-vec3)
@@ -225,7 +227,8 @@ Students are encouraged to take their own notes during lectures.
 	- Solution
 		- [main.cpp](labs/lab6-class-str/main.cpp)
 		- [str.h](labs/lab6-class-str/str.h)
-		- [str.cpp](labs/lab6-class-str/str.cpp) 
+		- [str.cpp](labs/lab6-class-str/str.cpp)
+- Week 19, No lab this week.  It is midterm week.
 
 # Assignments
 
