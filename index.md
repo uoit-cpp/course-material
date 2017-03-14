@@ -183,6 +183,9 @@ Students are encouraged to take their own notes during lectures.
 	- [10 Mar. 2017](lectures/week-09/2017-03-10-jottings.pdf)  
 
 ### Week 10 (Mar 13)
+- Topics: Inheritance (contd.), polymorphism, abstract classes, virtual functions
+- Polymorphis exercise
+	- [Handout](exercises/polymorphism/polymorphism-exercise) 
 
 ### Week 11 (Mar 20)
 
