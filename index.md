@@ -156,7 +156,7 @@ Students are encouraged to take their own notes during lectures.
 
 ### Week 6 (Feb 13)
 
-- Midterm, Feb 14., in class
+- Midterm 1, Feb 14, in class
 - Topics: const and friend functions, insertion and extraction operators
 	- [vec2 class ver. 2](lectures/week-06/vec2-v2) 
 
@@ -186,9 +186,13 @@ Students are encouraged to take their own notes during lectures.
 - Topics: Inheritance (contd.), polymorphism, abstract classes, virtual functions
 - Polymorphis exercise
 	- [Handout](exercises/polymorphism/polymorphism-exercise) 
-	- [Solution](exercises/polymorphism/polymorphism-exercise-solution.cpp) 
+	- [Solution](exercises/polymorphism/polymorphism-exercise-solution.cpp)
+- Jottings
+	- [14 Mar. 2017](lectures/week-10/2017-03-14-jottings.pdf) 
+- Midterm 2, Mar 17, in class 
 
 ### Week 11 (Mar 20)
+- Topics: Exception
 
 ### Week 12 (Mar 27)
 
