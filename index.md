@@ -232,7 +232,8 @@ Students are encouraged to take their own notes during lectures.
 - Week 10, No lab this week.  It is midterm week.
 - Week 11, Inheritance
 	- [Handout](labs/lab7-inheritance)	  
-- Week 12
+- Week 12, STL
+	- [Handout](labs/lab8-stl-vectors) 
 - Week 13
 
 # Assignments
