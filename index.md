@@ -8,7 +8,8 @@ __Email:__ faisal.qureshi@uoit.net
 
 - **New location:**  Starting Tuesday, Jan 17, lectures will take place in UA1120.  
 - **Midterm will take place on Feb. 14 in class.**  The midterm will contain both a written portion and a programming component.  Please ensure that your laptops are able to edit and compile CPP programs.  You will not be allowed to access the internet or existing code on your computer.  You are encouraged to prepare a 1 page (letter, 2-sided) CPP cheatsheet that you can bring to the midterm.  You will be allowed to use this cheatsheet during the programming part of the midterm.  The midterm will cover everything that we discuss till Friday, Feb. 10. 
-- **Midterm 2 will take place on Mar. 14 in class.**  This is a paper-only midterm.  It will consist of both "multiple-choice" and "short-answers" questions.  _Please bring a pencil to the midterm._  You _may_ be asked to mark answers on a Scantron sheet, and you'll have to use a pencil to do so.  _No aids are allowed, i.e., no cheat sheet._
+- **Midterm date change** Midterm will now take place on Mar 17.
+- **Midterm 2 will take place on <s>Mar. 14 in class.</s>**  This is a paper-only midterm.  It will consist of both "multiple-choice" and "short-answers" questions.  _Please bring a pencil to the midterm._  You _may_ be asked to mark answers on a Scantron sheet, and you'll have to use a pencil to do so.  _No aids are allowed, i.e., no cheat sheet._
 
 # General Info
 
