@@ -1,4 +1,4 @@
-// See also http://www.cplusplus.com/doc/tutorial/polymorphism/
+// From http://www.cplusplus.com/doc/tutorial/polymorphism/
 
 #include <iostream>
 using namespace std;
