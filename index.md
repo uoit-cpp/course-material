@@ -61,7 +61,7 @@ Assignment 1 | Jan 23 – Feb 5 (revised Feb 7)
 Assignment 2 | Feb 20 – Mar 5
 Assignment 3 | Mar 20 – Apr 2
 Midterm 1 | Feb 14 in class
-Midterm 2 | Mar 14 in class
+Midterm 2 | <s>Mar 14</s> Mar 17 in class
 
 
 # Syllabus
@@ -186,6 +186,7 @@ Students are encouraged to take their own notes during lectures.
 - Topics: Inheritance (contd.), polymorphism, abstract classes, virtual functions
 - Polymorphis exercise
 	- [Handout](exercises/polymorphism/polymorphism-exercise) 
+	- [Solution](exercises/polymorphism/polymorphism-exercise-solution.cpp) 
 
 ### Week 11 (Mar 20)
 
