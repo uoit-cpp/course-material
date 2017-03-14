@@ -175,8 +175,8 @@ Students are encouraged to take their own notes during lectures.
 ### Week 9 (Mar 6)
 
 - Topics: Inheritance
-	- [Slides](lectures/week-09/csci-1061-inheritance.pdf)
-	- [Slides](lectures/week-09/csci-1061-virtual-functions.pdf) 
+	- [Slides on inheritance](lectures/week-09/csci-1061-inheritance.pdf)
+	- [Slides on virtual functions](lectures/week-09/csci-1061-virtual-functions.pdf) 
 - Jottings
 	- [7 Mar. 2017](lectures/week-09/2017-03-07-jottings.pdf)
 	- [10 Mar. 2017](lectures/week-09/2017-03-10-jottings.pdf)  
@@ -228,7 +228,11 @@ Students are encouraged to take their own notes during lectures.
 		- [main.cpp](labs/lab6-class-str/main.cpp)
 		- [str.h](labs/lab6-class-str/str.h)
 		- [str.cpp](labs/lab6-class-str/str.cpp)
-- Week 19, No lab this week.  It is midterm week.
+- Week 10, No lab this week.  It is midterm week.
+- Week 11, Inheritance
+	- [Handout](labs/lab7-inheritance)	  
+- Week 12
+- Week 13
 
 # Assignments
 
