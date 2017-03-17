@@ -19,6 +19,8 @@ Consider the following `queue.h` and `main.cpp`.  It implements a simple array b
 #include <iostream>
 using namespace std;
 
+namespace PW2 {
+
 class queue
 {
   private:
@@ -72,6 +74,8 @@ class queue
     cout << "DEBUG queue\n" << endl;
   }
 };
+
+}
 
 #endif
 ~~~
