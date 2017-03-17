@@ -152,7 +152,7 @@ class Shape
 };
 
 // YOU NEED TO COMPLETE THIS CLASS
-class Tr
+class Tri
 {
   protected:
   int _width, _height;
