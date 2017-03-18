@@ -199,6 +199,7 @@ Students are encouraged to take their own notes during lectures.
 	- [C++ namespaces](lectures/week-11/cpp-namespaces/cpp-namespaces)
 - In class exercise
 	- [Handout](exercises/arr-queue/arr-queue-exercise)
+<!--	- [Handout](exercises/min-template/min-template-exercise) -->
 
 ### Week 12 (Mar 27)
 
