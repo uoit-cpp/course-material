@@ -11,6 +11,7 @@ __Email:__ faisal.qureshi@uoit.net
 - **Midterm date change** Midterm will now take place on Mar 17.
 - **<s>Midterm 2 will take place on Mar. 14 in class.</s>**  This is a paper-only midterm.  It will consist of both "multiple-choice" and "short-answers" questions.  _Please bring a pencil to the midterm._  You _may_ be asked to mark answers on a Scantron sheet, and you'll have to use a pencil to do so.  _No aids are allowed, i.e., no cheat sheet._
 - Midterm 2 solution is no available on Slack.
+- A3 is now available.  
 
 # General Info
 
@@ -259,5 +260,7 @@ Students are encouraged to take their own notes during lectures.
 	- Solution
 		- [main.cpp](assignments/a2-solution/main.cpp)
 		- [Mat.h](assignments/a2-solution/Mat.h)
-		- [Mat.cpp](assignments/a2-solution/Mat.cpp) 	
+		- [Mat.cpp](assignments/a2-solution/Mat.cpp) 
+- Assignment 3
+	- [Handout](assignments/a3), this needs to be submitted via Blackboard.	
 	
