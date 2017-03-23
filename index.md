@@ -199,8 +199,8 @@ Students are encouraged to take their own notes during lectures.
 	- [C++ namespaces](lectures/week-11/cpp-namespaces/cpp-namespaces)
 	- [C++ templates](lectures/week-11/cpp-templates/cpp-templates)
 - In class exercise
-	- Debugging a queue [Handout](exercises/arr-queue/arr-queue-exercise)
-	- Template function [Handout](exercises/template-function/template-function-exercise)
+	- Debugging a queue ([Handout](exercises/arr-queue/arr-queue-exercise))
+	- Template function ([Handout](exercises/template-function/template-function-exercise))
 
 ### Week 12 (Mar 27)
 
