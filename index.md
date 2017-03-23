@@ -194,12 +194,13 @@ Students are encouraged to take their own notes during lectures.
 - Midterm 2, Mar 17, in class 
 
 ### Week 11 (Mar 20)
-- Topics: Static members and methods, namespaces
+- Topics: Static members and methods, namespaces, template functions
 	- [C++ static methods and members](lectures/week-11/cpp-static/cpp-static)
 	- [C++ namespaces](lectures/week-11/cpp-namespaces/cpp-namespaces)
+	- [C++ templates](lectures/week-11/cpp-templates/cpp-templates)
 - In class exercise
 	- [Handout](exercises/arr-queue/arr-queue-exercise)
-<!--	- [Handout](exercises/min-template/min-template-exercise) -->
+	- [Handout](exercises/template-function/template-function)
 
 ### Week 12 (Mar 27)
 
