@@ -40,7 +40,7 @@ Scheduling information is available here [https://uoit.ca/mycampus/available-cou
 
 ## Office Hours
 
-- Tuesday, 12:30 pm to 2 pm in UA4032
+- Tuesday, 2:00 pm to 3 pm in UA4032
 - Or by appointment
 
 # Grading
