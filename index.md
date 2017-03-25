@@ -199,7 +199,8 @@ Students are encouraged to take their own notes during lectures.
 	- [C++ static methods and members](lectures/week-11/cpp-static/cpp-static)
 	- [C++ namespaces](lectures/week-11/cpp-namespaces/cpp-namespaces)
 	- [C++ templates](lectures/week-11/cpp-templates/cpp-templates)
-		- [Slides](lectures/week-11/cpp-templates/cpp-template-examples.pdf) 
+		- [Slides](lectures/week-11/cpp-templates/cpp-template-examples.pdf)
+		- [Source code (zipped)](lectures/week-11/cpp-templates/src.zip) 
 - In class exercise
 	- Debugging a queue ([Handout](exercises/arr-queue/arr-queue-exercise))
 	- Template function ([Handout](exercises/template-function/template-function-exercise))
