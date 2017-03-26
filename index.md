@@ -208,6 +208,7 @@ Students are encouraged to take their own notes during lectures.
 ### Week 12 (Mar 27)
 
 - Topics: template classes, exception handling
+	- [Exception handling](lectures/week-12/cpp-exception-handling/cpp-exception-handling)
 - In class exercise
 	- Template classes ([Handout](exercises/template-classes/template-classes-exercise))
 
