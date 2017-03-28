@@ -77,7 +77,7 @@ int main()
 Currently the vector class stores double values.  **You need to templatize it**, such that we can use this class to store values of other types as seen below. 
 
 ~~~cpp
-  vec3 v<int>(1,2,3);
+  vec3<int> v(1,2,3);
   v.print();
   cout << find_max(v) << endl;
 
