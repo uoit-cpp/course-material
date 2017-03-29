@@ -4,20 +4,20 @@
 
 **faisal.qureshi@uoit.ca**
 
-### Exception Handling
+## Exception Handling
 
 - A mechanism to handle “unexpected” situations
 	- File disappears in the middle of reading
 	- A network connection drops
 	- Division by zero occurs
 
-### Dealing with unexpected situation
+## Dealing with unexpected situation
 
 - Use error checking (if statements) to see if execution of a particular line of code will result in an error
 	- Do not execute the line of code that will give rise to the error
 	- Only feasible in very simple situations	
 
-#### Case 1: Do nothing and hope for the best
+### Case 1: Do nothing and hope for the best
 
 ~~~cpp
 #include <iostream>
@@ -49,7 +49,7 @@ Enter time: 0
 Velocity is: inf
 ~~~
 
-#### Case 2: Check for possible errors
+### Case 2: Check for possible errors
 
 Avoid executing statements that may lead to those errors
 
@@ -88,7 +88,7 @@ Enter time: 0
 Cannot compute velocity
 ~~~
 
-#### Case 3: Use exception handling
+### Case 3: Use exception handling
 
 ~~~cpp
 #include <iostream>
@@ -130,11 +130,11 @@ Exception raised.
 Continue ...
 ~~~
 
-### Anatomy of Exception Handling
+## Anatomy of Exception Handling
 
 Separates normal execution from what should be done in exceptional circumstances, keeping logic simple and design clean
 
-#### try-block
+### try-block
 
 Normal execution
 
@@ -151,7 +151,7 @@ try {
 }
 ~~~
 
-#### catch-block
+### catch-block
 
 Code that needs to be executed in exceptional circumstances
 
@@ -168,12 +168,12 @@ catch (double e)
 if (t <= 0) throw d;
 ~~~
 
-### Exception handling
+## Exception handling
 
 - Flow of control goes from try-block to catch-block when exception is thrown
 - Each thrown exception must be handled in catch-block
 
-### Throwing an exception
+## Throwing an exception
 
 - Keyword `throw` followed by exception type
 - Throw acts like a “function call”
@@ -191,7 +191,7 @@ try {
 }
 ~~~
 
-### catch-block
+## catch-block
 
 - catch-block looks like a function definition
 - catch-block is **not a function**, but it has similar behavior
@@ -217,7 +217,7 @@ catch (double)
 }
 ~~~	
 
-### Exception classes
+## Exception classes
 
 - `throw` statement can throw value of any type, even user-defined classes
 - Class constructor is called to _construct_ the class object that is subsequently thrown
@@ -295,7 +295,7 @@ Exception BadTime called with value -1
 Continue doing what you were doing.
 ~~~
 
-### Multiple throws in a try-block
+## Multiple throws in a try-block
 
 - try-block typically throws any number of exception values, of different types
 - The try-block ends once the first exception is thrown
@@ -448,7 +448,7 @@ Exception: ZeroDistance.
 Program safely continues, once the exception is handeled.
 ~~~
 
-### Trivial Exception Classes
+## Trivial Exception Classes
 
 - No member variables- No member functions (except default constructor)
 - Nothing but it’s name, which is enough
@@ -463,7 +463,7 @@ class ZeroDistance
 {};
 ~~~
 
-### Throwing Exception in a function
+## Throwing Exception in a function
 
 It is possible that an exception is thrown in a function, but it is caught in the _calling function_ try-catch-block.  The try-block seen below, for example, does not contain a throw statement.  Here, function `safeDivide` throws the exception `DivideByZero`, but the exception is handled in the try-catch-block of the calling function.  
 
@@ -548,7 +548,7 @@ catch(OutOfMemory) {
 
 In the first situation the calling function chose to abort the program; where as, in the second situation the calling function chose to ask for more memory. 
 
-### Specifying thrown exceptions
+## Specifying thrown exceptions
 
 Functions, e.g. `safeDivide` above, that throw exceptions, but don't catch them should warn users that it will throw an exception.  Specifically, such functions should list _all_ exceptions that it can throw.  This is list is often called "exception list" or "throw list".
 
@@ -566,7 +566,7 @@ The "exception list" or "throw list" should appear in both function's declaratio
 b
 If a function throws an exception that was not in its "throw list", built-in function `unexpected()` is automatically called.  The default behavior of `unpected()` function is to terminate the program.  Note that the fact that a function throws an exception that is not in its throw list does not create a compile-time or run-time error.  Btw. `unexpected()` is also called if no try-catch block is found.
 
-#### Case 1
+### Case 1
 
 Exception types `DividebyZero` or `OtherException` treated normally.  All others invoke `unexpected()`.
 
@@ -574,13 +574,13 @@ Exception types `DividebyZero` or `OtherException` treated normally.  All others
 void someFunction() throw(DividebyZero, OtherException);
 ~~~
 
-#### Case 2
+### Case 2
 
 Empty exception list, all exceptions invoke `unexpected()`
 
-~~~cppvoid someFunction() throw ();~~~#### Case 3All exceptions of all types treated normally~~~cppvoid someFunction();~~~
+~~~cppvoid someFunction() throw ();~~~### Case 3All exceptions of all types treated normally~~~cppvoid someFunction();~~~
 
-### Derived classes
+## Derived classes
 
 Polymorphism plays an important role in exceptions.  Say class B is derived from class A.  If the catch-block handles exception of type class A (i.e., class A is in exception specification) then it will also catch exception of class B is thrown.  
 
@@ -728,11 +728,11 @@ Program safely continues, once the exception is handeled.
 
 Note that `ZeroDistance` and `NegativeDistance` is not in exception list, but these are caught by `catch(InvalidDistance id)` catch-block, since both `ZeroDistance` and `NegativeDistance` are derived from class `InvalidDistance`.
 
-### `unexpected()`
+## `unexpected()`
 
 This function is called whenever an unhandled exception is thrown.  The default behavior is to `terminate` the program.  It is possible to redifine this function by using `set_unexpected`.  I suggest checking out the compiler documentation to the interested reader.
 
-### Rules of Thumb
+## Rules of Thumb
 
 - Exception throw and catch typically reside in different functions, and even in different files
 - The function that throws the exception should provide a throw list, which lists the exceptions that the function throws
@@ -742,14 +742,14 @@ This function is called whenever an unhandled exception is thrown.  The default 
 	- Exceptions alter the flow of the program (recall the `goto` statement)
 - It is best to use exceptions when all other design avenues have been exhausted
 
-### Rethrowing an exception 
+## Rethrowing an exception 
 
 - It is legal to throw an exception in the catch-block.  In practice it is done very rarely.
 - This behavior throws to a catch-block within the same chain.
 - Use `rethrow;` to throw the same exception up
 - Use `throw SomeNewException;` to throw a different exception to the subsequent catch-blocks
 
-### Further reading
+## Further reading
 
 - [http://www.cplusplus.com/doc/tutorial/exceptions/](http://www.cplusplus.com/doc/tutorial/exceptions/}
 - Absolution C++ 6 Ed.
