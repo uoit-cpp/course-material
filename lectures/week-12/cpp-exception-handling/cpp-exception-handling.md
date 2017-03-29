@@ -751,5 +751,5 @@ This function is called whenever an unhandled exception is thrown.  The default 
 
 ## Further reading
 
-- [http://www.cplusplus.com/doc/tutorial/exceptions/](http://www.cplusplus.com/doc/tutorial/exceptions/}
+- [http://www.cplusplus.com/doc/tutorial/exceptions/](http://www.cplusplus.com/doc/tutorial/exceptions/)
 - Absolution C++ 6 Ed.
