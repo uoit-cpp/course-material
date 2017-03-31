@@ -211,7 +211,7 @@ Students are encouraged to take their own notes during lectures.
 	- [Function pointers, functors, and lambda functions](lectures/week-11/cpp-function-pointers/cpp-function-pointers.pdf)
 - In class exercise 
 	- Template classes ([Handout](exercises/template-classes/template-classes-exercise))
-	- Function pointer ([Handout](lectures/week-11/cpp-function-pointers/exercise/funptr-findmin)
+	- Function pointer ([Handout](lectures/week-11/cpp-function-pointers/exercise/funptr-findmin))
 
 ### Week 13 (Apr 3)
 
