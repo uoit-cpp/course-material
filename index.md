@@ -207,10 +207,11 @@ Students are encouraged to take their own notes during lectures.
 
 ### Week 12 (Mar 27)
 
-- Topics: template classes, exception handling
-	- [Exception handling](lectures/week-12/cpp-exception-handling/cpp-exception-handling)
-- In class exercise
+- Topics: template classes, function pointers, functors and lambda functions
+	- [Function pointers, functors, and lambda functions](lectures/week-11/cpp-function-pointers/cpp-function-pointers.pdf)
+- In class exercise 
 	- Template classes ([Handout](exercises/template-classes/template-classes-exercise))
+	- Function pointer ([Handout](lectures/week-11/cpp-function-pointers/exercise/funptr-findmin)
 
 ### Week 13 (Apr 3)
 
