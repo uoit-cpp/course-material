@@ -216,6 +216,8 @@ Students are encouraged to take their own notes during lectures.
 		- [Solution](lectures/week-11/cpp-function-pointers/exercise/lambda-exercise-solution.cpp) 
 
 ### Week 13 (Apr 3)
+- Topics: STL
+	- [STL slides](lectures/week-12/cpp-stl/cpp-stl-slides.pdf)	 
 
 # Labs
 
