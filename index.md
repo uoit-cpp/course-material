@@ -217,7 +217,9 @@ Students are encouraged to take their own notes during lectures.
 
 ### Week 13 (Apr 3)
 - Topics: STL
-	- [STL slides](lectures/week-12/cpp-stl/cpp-stl-slides.pdf)	 
+	- [STL slides](lectures/week-12/cpp-stl/cpp-stl-slides.pdf)
+- In class exercise
+	- STL Minecraft 2D Terrain Generation ([Handout](exercises/stl-minecraft-2d/stl-minecraft-2d))	 
 
 # Labs
 
