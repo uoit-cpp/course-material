@@ -216,10 +216,12 @@ Students are encouraged to take their own notes during lectures.
 		- [Solution](lectures/week-11/cpp-function-pointers/exercise/lambda-exercise-solution.cpp) 
 
 ### Week 13 (Apr 3)
-- Topics: STL
+- Topics: STL, GDB
 	- [STL slides](lectures/week-12/cpp-stl/cpp-stl-slides.pdf)
+	- [GDB slides](lectures/week-12/cpp-gdb/cpp-gdb-slides.pdf)
 - In class exercise
 	- STL Minecraft 2D Terrain Generation ([Handout](exercises/stl-minecraft-2d/stl-minecraft-2d))	 
+	- Timing ([Handout](lectures/week-12/cpp-gdb/exercise/exercise-counting))
 
 # Labs
 
@@ -265,7 +267,7 @@ Students are encouraged to take their own notes during lectures.
 	- [Handout](labs/lab7-inheritance)	  
 - Week 12, STL
 	- [Handout](labs/lab8-stl-vectors) 
-- Week 13
+- Week 13, No lab this week
 
 # Assignments
 
